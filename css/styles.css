@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f3ea;
+  color: #1f1f1f;
+  line-height: 1.6;
+}
+
+.site-header {
+  background: #e8e0cf;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 0.75rem;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #1f1f1f;
+  font-weight: 700;
+}
+
+main.page {
+  width: 1200px;
+  max-width: calc(100% - 2rem);
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+h1,
+h3 {
+  font-family: Garamond, Georgia, serif;
+  margin-top: 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.poem {
+  font-family: Georgia, serif;
+  white-space: pre-line;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 1.5rem auto;
+  color: #2e2e2e;
+  text-align: center;
+  width: 100%;
+}
+
+.haiku-image {
+  display: block;
+  width: 1200px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+
+.site-footer {
+  background: #d9d0bf;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
